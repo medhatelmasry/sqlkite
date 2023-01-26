@@ -20,7 +20,7 @@ VALUES
 ('A00555555', 'Ben', 'Ray', 'Mining')
 ";
 
-# $db->exec($SQL_insert_data);
+$db->exec($SQL_insert_data);
 
 $res = $db->query('SELECT * FROM Students');
 
